@@ -1,0 +1,9 @@
+xyz/byfan/common/PageData.class
+xyz/byfan/common/BaseResponseEnum.class
+xyz/byfan/exception/GlobalException.class
+xyz/byfan/form/PageForm.class
+xyz/byfan/common/BaseResponse.class
+xyz/byfan/exception/GlobalExceptionHandler.class
+xyz/byfan/service/impl/BaseServiceImpl.class
+xyz/byfan/service/IBaseService.class
+xyz/byfan/dao/BaseDao.class
