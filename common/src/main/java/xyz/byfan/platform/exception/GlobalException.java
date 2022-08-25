@@ -1,6 +1,6 @@
-package xyz.byfan.exception;
+package xyz.byfan.platform.exception;
 
-import xyz.byfan.common.BaseResponseEnum;
+import xyz.byfan.platform.common.BaseResponseEnum;
 
 /**
  * @ClassName: GlobalException

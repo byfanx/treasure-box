@@ -1,4 +1,4 @@
-package xyz.byfan.exception;
+package xyz.byfan.platform.exception;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -7,8 +7,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import xyz.byfan.common.BaseResponse;
-import xyz.byfan.common.BaseResponseEnum;
+import xyz.byfan.platform.common.BaseResponse;
+import xyz.byfan.platform.common.BaseResponseEnum;
 
 /**
  * @ClassName: GlobalException

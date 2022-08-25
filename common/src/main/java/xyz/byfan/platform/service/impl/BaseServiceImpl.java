@@ -1,11 +1,11 @@
-package xyz.byfan.service.impl;
+package xyz.byfan.platform.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
-import xyz.byfan.dao.BaseDao;
-import xyz.byfan.service.IBaseService;
+import xyz.byfan.platform.dao.BaseDao;
+import xyz.byfan.platform.service.IBaseService;
 
 import java.io.Serializable;
 import java.util.List;

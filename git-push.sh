@@ -11,9 +11,10 @@ PROJECT_BOOT_PATH=`cd .. && pwd`
 PROJECT_PATH=$PROJECT_BOOT_PATH'/'$PROJECT_NAME
 
 echo "项目所在路径 : $PROJECT_PATH"
+cd $PROJECT_PATH
 
 echo "开始 pull ..."
-git pull
+git pull origin master
 echo "开始 push ..."
 git add .
 git commit -m "完善组件"

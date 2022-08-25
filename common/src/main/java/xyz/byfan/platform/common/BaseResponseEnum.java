@@ -1,4 +1,4 @@
-package xyz.byfan.common;
+package xyz.byfan.platform.common;
 
 /**
  * @ClassName: BaseResponseEnum

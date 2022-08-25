@@ -1,4 +1,4 @@
-package xyz.byfan.common;
+package xyz.byfan.platform.common;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import io.swagger.annotations.ApiModel;

@@ -1,4 +1,4 @@
-package xyz.byfan.service;
+package xyz.byfan.platform.service;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

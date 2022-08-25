@@ -1,4 +1,4 @@
-package xyz.byfan.common;
+package xyz.byfan.platform.common;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
