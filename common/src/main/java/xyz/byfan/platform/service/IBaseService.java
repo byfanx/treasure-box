@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * @ClassName: IBaseService
- * @Description: 基础业务层
+ * @Description: 基础业务层（ 泛型：T 是实体类，PK 是主键属性的类型 ）
  * @Author: byfan
  * @Date: 2022/8/25 15:06
  */

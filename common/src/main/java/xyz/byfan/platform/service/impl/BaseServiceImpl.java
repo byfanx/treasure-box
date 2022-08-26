@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * @ClassName: BaseServiceImpl
- * @Description: 基础业务层实现类
+ * @Description: 基础业务层实现类（ 泛型：T 是实体类，PK 是主键属性的类型 ）
  * @Author: byfan
  * @Date: 2022/8/25 15:13
  */
@@ -70,7 +70,7 @@ public class BaseServiceImpl<T, PK extends Serializable> implements IBaseService
      */
     @Override
     public T getById(PK id) {
-        return baseDao.getReferenceById(id);
+        return baseDao.findById(id).orElse(null);
     }
 
     /**
